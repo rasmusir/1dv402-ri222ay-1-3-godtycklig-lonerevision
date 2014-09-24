@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace _1dv402_ri222ay_1_3_godtycklig_lonerevision
 {
-    class MyExtension
+    static class MyExtension
     {
+        public static int Dispersion(int[] source)
+        {
+            throw new NotImplementedException();
+        }
 
+        public static int Median(int[] source)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
