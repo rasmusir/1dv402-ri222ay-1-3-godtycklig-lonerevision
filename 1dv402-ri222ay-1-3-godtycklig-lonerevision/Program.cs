@@ -58,9 +58,9 @@ namespace _1dv402_ri222ay_1_3_godtycklig_lonerevision
             Console.ResetColor();
         }
 
-        static void ViewResults(int[] salaries)
+        static void ViewResult(int[] salaries)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
