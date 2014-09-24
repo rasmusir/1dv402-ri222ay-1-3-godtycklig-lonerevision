@@ -18,7 +18,16 @@ namespace _1dv402_ri222ay_1_3_godtycklig_lonerevision
 
         public static int Median(int[] source)
         {
-            throw new NotImplementedException();
+            int[] values = source.OrderBy(i => i).ToArray();
+
+            if (values.Length % 2 == 0)
+            {
+                return values[values.Length / 2];
+            }
+            else
+            {
+                return (values[values.Length / 2] + values[values.Length / 2 + 1])/2;
+            }
         }
     }
 }
