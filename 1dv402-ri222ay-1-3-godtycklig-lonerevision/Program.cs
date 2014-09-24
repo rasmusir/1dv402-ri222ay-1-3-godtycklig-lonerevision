@@ -66,9 +66,9 @@ namespace _1dv402_ri222ay_1_3_godtycklig_lonerevision
         static void ViewResult(int[] salaries)
         {
             Console.WriteLine();
-            Console.WriteLine("Medianlön:    {0,20:C}",MyExtension.Median(salaries));
-            Console.WriteLine("Medellön:     {0,20:C}", salaries.Average());
-            Console.WriteLine("Lönespridning:{0,20:C}", MyExtension.Dispersion(salaries));
+            Console.WriteLine("Medianlön:    {0,20:C0}",MyExtension.Median(salaries));
+            Console.WriteLine("Medellön:     {0,20:C0}", salaries.Average());
+            Console.WriteLine("Lönespridning:{0,20:C0}", MyExtension.Dispersion(salaries));
             Console.WriteLine();
             for (int i = 0; i<salaries.Length; i++)
             {
