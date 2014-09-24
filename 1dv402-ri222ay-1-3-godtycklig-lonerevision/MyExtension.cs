@@ -20,7 +20,7 @@ namespace _1dv402_ri222ay_1_3_godtycklig_lonerevision
         {
             int[] values = source.OrderBy(i => i).ToArray();
 
-            if (values.Length % 2 == 0)
+            if (values.Length % 2 == 1)
             {
                 return values[values.Length / 2];
             }
