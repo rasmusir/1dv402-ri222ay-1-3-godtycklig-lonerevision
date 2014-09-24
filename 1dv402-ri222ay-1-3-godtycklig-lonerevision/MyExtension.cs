@@ -10,7 +10,10 @@ namespace _1dv402_ri222ay_1_3_godtycklig_lonerevision
     {
         public static int Dispersion(int[] source)
         {
-            throw new NotImplementedException();
+            int[] values = source.OrderBy(i => i).ToArray();
+            int smallest = values[0];
+            int biggest = values[values.Length - 1];
+            return biggest - smallest;
         }
 
         public static int Median(int[] source)
